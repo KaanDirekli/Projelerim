@@ -1,0 +1,23 @@
+#box {
+        width: 60px;
+        height: 60px;
+        background: blue;
+        position: relative;
+        animation: kayma 5s;
+        animation-play-state: paused;
+        
+
+
+}
+@keyframes kayma {
+        from {
+        		left: 0;
+        	  	
+
+        }
+
+        to {
+        	left: 600px;
+        	
+        }
+}
